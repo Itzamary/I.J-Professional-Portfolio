@@ -58,6 +58,7 @@ section#about-me {
 font-size: 36px;
 color: #757472;
 text-align:right;
+width: 20%;
 }
 #about-me p {
     width: 80%;
@@ -68,6 +69,8 @@ text-align:right;
 #work h1{
     color: #757472;
     font-size: 36px;
+    width: 20%;
+    text-align: right;
 }
 #work div.projects-cards{
     width: 80%;
@@ -84,6 +87,7 @@ text-align:right;
 font-size: 36px;
 color: #757472;
 text-align: right;
+width: 20%;
 }
 
 #contact-me div {
