@@ -1,0 +1,105 @@
+
+/* GLOBAL RULES.*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* HEADER SECTION*/
+
+header {
+    padding: 10px 0;
+    background-color: #757472;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+header h1{
+    font-size: 36px;
+    padding: 0 5px 0 40px;
+    background-color: #948CFC;
+    color: #757472;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 40px;;
+}
+
+header nav ul li a {
+    padding: 1px 4px;
+    margin: 0 5px ;
+    color: #948CFC;
+    text-decoration: none;
+    border-bottom: 2px solid #948CFC;
+}
+
+#main-section h1 {
+    
+    border: 2px solid red;
+}
+
+/*ABOUT ME SECTION*/
+#about-me {
+    width: 1005;
+    display: flex;
+
+}
+
+#about-me h1{
+font-size: 36px;
+color: #757472;
+text-align: right;;
+}
+
+/*WORK SECTION*/
+
+#work {
+    display: flex;
+    width: 100%;
+}
+#work h1{
+    color: #757472;
+    font-size: 36px;
+}
+
+/* CONTACT ME SECTION */
+#contact-me{
+display:flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+#contact-me h1{
+font-size: 36px;
+color: #757472;
+text-align: right;
+}
+
+#contact-me div ul {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+}
+
+#contact-me div ul a{
+padding: 0 20px;
+}
+
+
