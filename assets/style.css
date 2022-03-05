@@ -63,18 +63,27 @@ width: 20%;
 #about-me p {
     width: 80%;
     text-align: left;
+    border-left: 2px solid #757472;
 }
 
 /*WORK SECTION*/
+#work {
+    display: flex;
+    align-items: center;
+}
+
 #work h1{
     color: #757472;
     font-size: 36px;
     width: 20%;
     text-align: right;
 }
-#work div.projects-cards{
+.projects-cards{
+    display: flex;
     width: 80%;
     height: 20%;
+    border-left: 2px solid #757472;
+    padding: 10px 20px;
 }
 
 /* CONTACT ME SECTION */
