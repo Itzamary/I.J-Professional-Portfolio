@@ -7,7 +7,6 @@
 }
 
 
-
 /* HEADER SECTION*/
 
 header {
@@ -48,58 +47,58 @@ header nav ul li a {
     text-decoration: none;
     border-bottom: 2px solid #948CFC;
 }
-
-#main-section h1 {
-    
-    border: 2px solid red;
-}
-
 /*ABOUT ME SECTION*/
-#about-me {
-    width: 1005;
-    display: flex;
+section#about-me {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
 
 }
-
 #about-me h1{
 font-size: 36px;
 color: #757472;
-text-align: right;;
+text-align:right;
+}
+#about-me p {
+    width: 80%;
+    text-align: left;
 }
 
 /*WORK SECTION*/
-
-#work {
-    display: flex;
-    width: 100%;
-}
 #work h1{
     color: #757472;
     font-size: 36px;
 }
-
-/* CONTACT ME SECTION */
-#contact-me{
-display:flex;
-width: 100%;
-justify-content: space-between;
-align-items: center;
+#work .projects-cards a {
+    width: 80%;
+    height: 20%;
 }
 
+/* CONTACT ME SECTION */
+#contact-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #contact-me h1{
 font-size: 36px;
 color: #757472;
 text-align: right;
 }
 
-#contact-me div ul {
-display: flex;
-flex-wrap: wrap;
+#contact-me div {
+    width: 80%;
+}
+
+#contact-me ul {
 list-style: none;
+display: flex;
+justify-content: space-evenly;
 }
 
 #contact-me div ul a{
-padding: 0 20px;
+padding: 0 40px;
 }
 
 
