@@ -164,7 +164,7 @@ color: #757472;
     /* header section */
 
     header h1{
-        font-size: 40px;
+        font-size: 50px;
     }
 
     header nav ul li a{
@@ -179,7 +179,7 @@ color: #757472;
 
     #about-me h1{
        text-align: center;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     #about-me p{
@@ -195,7 +195,7 @@ color: #757472;
 
     #work h1 {
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .project-cards{
@@ -232,6 +232,22 @@ color: #757472;
         line-height: 2;
     }
     
+}
+
+@media screen and (max-width: 965px){
+    header{
+        justify-content: center;
+    }
+
+    header h1{
+        text-align: center;
+        align-items: cener;
+        padding: 0 40px;
+    }
+
+    header nav ul{
+        margin: 0;
+    }
 }
 
 
