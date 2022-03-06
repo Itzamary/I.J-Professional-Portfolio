@@ -209,6 +209,7 @@ color: #757472;
         text-align: center;
         font-size: 50px;
         padding: 0;
+        width: 100%;
     }
 
     .project-cards{
@@ -240,6 +241,7 @@ color: #757472;
         border-left: none;
         border-top: 3px solid #757472;
         margin: 0;
+        width: 100%;
     }
 
     #contact-me ul {
@@ -247,23 +249,29 @@ color: #757472;
         align-items: center;
         font-size: 30px;
         line-height: 2;
+        justify-content: center;
+    }
+
+    #contact-me ul li {
+        margin: 0;
     }
     
 }
 
-@media screen and (max-width: 965px){
+@media screen and (max-width: 500px){
     header{
         justify-content: center;
     }
 
     header h1{
         text-align: center;
-        align-items: cener;
         padding: 0 40px;
     }
 
     header nav ul{
         margin: 0;
+        flex-direction: column;
+        line-height: 2;
     }
 }
 
