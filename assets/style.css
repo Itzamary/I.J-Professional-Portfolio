@@ -151,3 +151,80 @@ color: #757472;
 }
 
 
+/*media types*/
+@media screen and (max-width: 980px){
+
+    /* header section */
+
+    header h1{
+        font-size: 40px;
+    }
+
+    header nav ul li a{
+        font-size: 30px;
+    }
+    /*about me section*/
+    #about-me{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #about-me h1{
+       text-align: center;
+        font-size: 40px;
+    }
+
+    #about-me p{
+        border-left: 0;
+        border-top: 3px solid #757472;
+        padding-top: 10px;
+    }
+    /*work section*/
+    #work{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #work h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .project-cards{
+        border-left: 0;
+        border-top: 3px solid #757472;
+    }
+
+    .project-cards div{
+        width: 100%;
+        height: 150px;
+    }
+
+    /*contact me section*/
+
+    #contact-me{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-me h1{
+        text-align: center;
+        font-size: 50px
+    }
+
+    #contact-me div{
+        border-left: none;
+        border-top: 3px solid #757472;
+    }
+
+    #contact-me ul {
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        line-height: 2;
+    }
+    
+}
+
+
