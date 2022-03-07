@@ -87,7 +87,7 @@ padding-right: 20px;
     padding-right: 20px;
 }
 
-.project-cards{
+#project-cards{
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -96,32 +96,21 @@ padding-right: 20px;
     flex-wrap: wrap;
 }
 
-.project-cards div:first-child {
+#project-cards div:first-child {
     width: 100%;
     height: 250px;
 }
 
-.project-cards div {
+#project-cards div {
     height: 150px;
     width: 50%;
     margin: 10px 0;
     padding: 0 10px;
-    position: relative;
 }
 
-div#project-name{
-    display: inline;
-    position: absolute;
-    width: 10%;
-    height: 30%;
-    background-color: #757472;
-    top: 10px;
-    left: 10px;
-    padding: 0;
-    margin: 0;
-}
 
-.project-cards div img {
+
+#project-cards div img {
     height: 100%;
     width: 100%;
     border: 4px solid #948CFC;
@@ -225,13 +214,13 @@ color: #757472;
         width: 100%;
     }
 
-    .project-cards{
+    #project-cards{
         border-left: 0;
         border-top: 3px solid #757472;
         padding: 0;
     }
 
-    .project-cards div{
+    #project-cards div{
         width: 100%;
         height: 150px;
     }
