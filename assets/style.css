@@ -47,6 +47,17 @@ header nav ul li a {
     text-decoration: none;
     border-bottom: 2px solid #948CFC;
 }
+
+header div {
+    width: 100%;
+    text-align: right;
+    background-color: #948CFC;
+    margin-top: 10px;
+}
+
+header div img {
+    width: 200px;
+}
 /*ABOUT ME SECTION*/
 #about-me {
     display:flex;
@@ -189,6 +200,10 @@ text-decoration: none;
 
     header nav ul li a{
         font-size: 30px;
+    }
+
+    header div {
+        text-align: center;
     }
     /*about me section*/
     #about-me{
