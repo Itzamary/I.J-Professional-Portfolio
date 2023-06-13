@@ -57,6 +57,7 @@ header div {
 
 header div img {
     width: 200px;
+    border-radius: 50%;
 }
 /*ABOUT ME SECTION*/
 #about-me {
